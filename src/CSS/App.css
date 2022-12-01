@@ -1,0 +1,168 @@
+body {
+  background-color: #FFF;
+}
+.App-header {
+  background: rgb(195,34,34);
+  background: linear-gradient(0deg, rgba(195,34,34,0) 0%, rgba(190,111,111,1) 67%, rgba(253,45,45,1) 100%);
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #c32222;
+  font-size: 11px;
+}
+
+.App-body {
+  background-color: #FFF;
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/** Button Animation */
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+.animation:hover {
+  transition: 1s ease-in-out;
+  background: #c00000;
+}
+.animation:hover svg {
+  stroke-dashoffset: -480;
+}
+.animation span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  background: #c32222;
+  border: 1px solid #c32222;
+  outline: none;
+  transition: 1s ease-in-out;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.Cards {
+  width: 100%;
+  height: 810px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  margin: 20px 0 20px;
+}
+
+/** Flipping Card */
+.Cards .Card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  background: rgb(195,34,34);
+}
+.Cards .CardFlipped {
+  color: #FFF;
+  background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
+}
+.Cards .CardNumber {
+  line-height: 250px;
+  color: #c00000;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+  cursor: pointer;
+  background-image: url("./GiftBox.png");
+  background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
+}
+
+/** Card Flipped */
+.Cards .Card .SmallNumber {
+  position: absolute;
+  top: 12.5px;
+  right: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFF;
+}
+.Cards .Card img {
+  margin: 10px 0 0 0;
+  max-height: 140px;
+}
+.Cards .Card h1 {
+  margin: 0;
+  padding: 5px 15px;
+  font-size: 0.5em;
+}
+.Cards .Card h1 a {
+  color: #FFF;
+  text-decoration: none;
+}
+.Cards .Card .Participant {
+  margin: 5px 0 0 0;
+  color: #FFF;
+}
+.Cards .Card select {
+  padding: 3px 5px;
+  font-size: 0.6em;
+}
+.Cards .Card .selectedParticipant {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin: 10px 0 0 0;
+}
+.Cards .Card .selectedParticipant button {
+  width: 20px;
+  height: 20px;
+  font-size: 0.4em;
+  background-color: #FFF;
+  color: #c32222;
+  margin: 0 0 0 10px;
+}
+
+/** GamePlay */
+.GamePlay {
+  height: 20px;
+  line-height: 20px;
+}
+.GamePlay button {
+  margin: 0 10px;
+}
+.Player {
+  display: flex;
+}
+.Player strong {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+.Player strong, .GameOver {
+  font-size: 1.6em;
+  font-weight: bold;
+}
