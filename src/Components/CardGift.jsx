@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function CardGift(props) {
   return (
-    <div>
+    <h1>
       <a
         href={ props.link }
-        noreferal
+        rel="noreferrer"
         target="_blank">
           { props.title }
       </a>
-    </div>
+    </h1>
   )
 }
