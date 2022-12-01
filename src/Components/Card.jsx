@@ -29,7 +29,7 @@ export default function Card(props) {
       </div>
 
       <div className="Card CardFlipped">
-        <div className="SmallNumber">{ props.gift.id }</div>
+        <div className="SmallNumber">{ props.number }</div>
 
         <div className="Gift">
           <CardImage image={props.gift.image} title={props.gift.title} />
