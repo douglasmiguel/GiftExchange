@@ -1,18 +1,55 @@
 body {
   background-color: #FFF;
 }
+
 .App-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
   background: rgb(195,34,34);
   background: linear-gradient(0deg, rgba(195,34,34,0) 0%, rgba(190,111,111,1) 67%, rgba(253,45,45,1) 100%);
   min-height: 4vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #c32222;
-  font-size: 11px;
+}
+.App-header h1 {
+  width: 40%;
+  color: #000;
+  text-shadow: -1px 0 #999, 0 1px #999, 1px 0 #999, 0 -1px #999;
+  font-size: 30px;
 }
 
+/** GamePlay */
+.GamePlay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  width: 50%;
+  height: 20px;
+  line-height: 20px;
+  text-align: right;
+}
+.GamePlay button {
+  margin: 0 10px;
+}
+.Player {
+  display: flex;
+}
+.Player strong {
+  width: 400px;
+  text-align: center;
+  margin: 5px;
+}
+.Player strong, .GameOver {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+/** Body: Cards */
 .App-body {
   background-color: #FFF;
   min-height: 82vh;
@@ -38,6 +75,7 @@ svg {
 .animation:hover {
   transition: 1s ease-in-out;
   background: #c00000;
+  border: 1px solid FFF;
 }
 .animation:hover svg {
   stroke-dashoffset: -480;
@@ -52,8 +90,8 @@ button {
   width: 150px;
   height: 30px;
   cursor: pointer;
-  background: #c32222;
-  border: 1px solid #c32222;
+  background: #000;
+  border: 1px solid #CCC;
   outline: none;
   transition: 1s ease-in-out;
   font-size: 1.4em;
@@ -88,14 +126,17 @@ button {
   background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
 }
 .Cards .CardNumber {
-  line-height: 250px;
-  color: #c00000;
-  font-size: 5em;
-  font-weight: bold;
-  text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
   cursor: pointer;
   background-image: url("./GiftBox.png");
   background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
+}
+.Cards .CardNumber span {
+  opacity: .8;
+  line-height: 250px;
+  color: #FDFDFD;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: -1px 0 #CDCDCD, 0 1px #CDCDCD, 1px 0 #CDCDCD, 0 -1px #CDCDCD;
 }
 
 /** Card Flipped */
@@ -144,25 +185,4 @@ button {
   background-color: #FFF;
   color: #c32222;
   margin: 0 0 0 10px;
-}
-
-/** GamePlay */
-.GamePlay {
-  height: 20px;
-  line-height: 20px;
-}
-.GamePlay button {
-  margin: 0 10px;
-}
-.Player {
-  display: flex;
-}
-.Player strong {
-  width: 200px;
-  text-align: center;
-  margin: 5px;
-}
-.Player strong, .GameOver {
-  font-size: 1.6em;
-  font-weight: bold;
 }

@@ -3,10 +3,11 @@ import Card from './Card';
 import GamePlay from './GamePlay';
 import Participants from '../Data/Participants';
 import Gifts from '../Data/Gifts';
+import _ from 'underscore';
 
 function App() {
   const participants = Participants.Participants;
-  const gifts = Gifts.Gifts;
+  const gifts = _.shuffle(Gifts.Gifts);
 
   return (
     <div className="App">
@@ -16,8 +17,8 @@ function App() {
       </header>
       <div className="App-body">
         <div className="Cards">
-          { gifts.map((gift) => (
-            <Card key={ gift.id } gift={ gift } participants={ participants }></Card>
+          { gifts.map((gift, index) => (
+            <Card key={ index + 1 } number={ index + 1 } gift={ gift } participants={ participants }></Card>
           ))}
         </div>
       </div>

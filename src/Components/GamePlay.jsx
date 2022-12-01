@@ -39,8 +39,8 @@ export default function GamePlay(props) {
       { !isGameOver && isStarted && (
         <div className="Player">
           <strong>{ participants[currentParticipant].name }</strong>
-          <button onClick={ () => skipParticipant(participants[currentParticipant]) }>Skip</button>
-          <button onClick={ () => moveToNextParticipant() }>Next Player</button>
+          <button className="animation" onClick={ () => skipParticipant(participants[currentParticipant]) }>Skip</button>
+          <button className="animation" onClick={ () => moveToNextParticipant() }>Next Player</button>
         </div>
       )}
 

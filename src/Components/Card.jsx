@@ -25,7 +25,7 @@ export default function Card(props) {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div className="Card CardNumber animation" onClick={ selectCard }>
-        { props.gift.id }
+        <span>{ props.number }</span>
       </div>
 
       <div className="Card CardFlipped">
