@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# 🎁 Gift Exchange
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was create to help organizing a Gift Exchange game.
+
+## Populating data
+
+You can add the Participants by copying and renaming the file `./src/Data/Participants.json-example` and the Gifts available by copying and renaming the file `./src/Data/Gifts.json-example`.
 
 ## Available Scripts
 
