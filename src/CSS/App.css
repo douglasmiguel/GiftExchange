@@ -18,6 +18,7 @@ body {
   color: #000;
   text-shadow: -1px 0 #999, 0 1px #999, 1px 0 #999, 0 -1px #999;
   font-size: 30px;
+  font-family: 'Petit Formal Script', cursive;
 }
 
 /** GamePlay */
@@ -127,6 +128,8 @@ button {
 }
 .Cards .CardNumber {
   cursor: pointer;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 1.2em;
   background-image: url("./GiftBox.png");
   background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
 }
@@ -142,8 +145,9 @@ button {
 /** Card Flipped */
 .Cards .Card .SmallNumber {
   position: absolute;
-  top: 12.5px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
+  font-family: 'Petit Formal Script', cursive;
   font-size: 1.2em;
   font-weight: bold;
   color: #FFF;
