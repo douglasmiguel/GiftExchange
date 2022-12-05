@@ -28,14 +28,14 @@ export default function Card(props) {
         <span>{ props.number }</span>
       </div>
 
-      <div className="Card CardFlipped">
+      <div className={ props.gift.type === "special" ? "Card CardFlipped CardSpecial" + props.gift.className : "Card CardFlipped CardStandard" }>
         <div className="SmallNumber">{ props.number }</div>
-
         <div className="Gift">
-          <CardImage image={props.gift.image} title={props.gift.title} />
-          <CardGift link={props.gift.link} title={props.gift.title} />
+          { props.gift.type === "standard" &&
+            <CardImage image={ props.gift.image } title={ props.gift.title } />
+          }
+          <CardGift link={ props.gift.link } title={ props.gift.title } description={ props.gift.description } />
         </div>
-
         <div className="Participant">
           { !selectedParticipant ? (
             <select

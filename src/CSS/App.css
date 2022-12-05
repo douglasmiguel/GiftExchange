@@ -124,6 +124,18 @@ button {
   border-radius: 25px;
   background: rgb(195,34,34);
 }
+.Cards .CardStandard {
+  background: rgb(195,34,34);
+}
+.Cards .CardSpecialJoker {
+  background: rgb(195,34,34) url("./GiftSpecial-Joker.png");
+}
+.Cards .CardSpecialOracle {
+  background: rgb(195,34,34) url("./GiftSpecial-Oracle.png");
+}
+.Cards .CardSpecialLotteryWinner {
+  background: rgb(195,34,34) url("./GiftSpecial-LotteryWinner.png");
+}
 .Cards .CardFlipped {
   color: #FFF;
   background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
@@ -154,21 +166,50 @@ button {
   font-weight: bold;
   color: #FFF;
 }
+
+.Cards .Card .Gift {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 .Cards .Card img {
   margin: 10px 0 0 0;
   max-height: 140px;
 }
 .Cards .Card h1 {
   margin: 0;
-  padding: 5px 15px;
   font-size: 0.5em;
 }
 .Cards .Card h1 a {
+  padding: 5px 15px;
   color: #FFF;
   text-decoration: none;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.Cards .Card h1 p {
+  display: block;
+  margin: 0;
+  padding: 100px 0 0 0;
+  line-height: 40px;
+  font-size: 1.6em;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+.Cards .Card .description {
+  margin: 0;
+  padding: 0 10px;
+  overflow: hidden;
+  height: 60px;
+  font-size: 0.6em;
 }
 .Cards .Card .Participant {
-  margin: 5px 0 0 0;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 200px;
+  margin: 0 0 0 -100px;
+  padding: 0;
   color: #FFF;
 }
 .Cards .Card select {

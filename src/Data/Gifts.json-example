@@ -2,29 +2,73 @@
   "Gifts": [
     {
       "id": 1,
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "type": "special",
+      "className": "Joker",
+      "title": "JOKER",
+      "description": "Choose a player that will have to give up on their gift and choose a new card. Make your play after that.",
+      "image": "joker.png",
+      "link": ""
     },
     {
       "id": 2,
+      "type": "special",
+      "className": "Oracle",
+      "title": "ORACLE",
+      "description": "You jump to the end of the queue, being the last one to choose.",
+      "image": "oracle.png",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "type": "special",
+      "className": "LotteryWinner",
+      "title": "LOTTERY WINNER",
+      "description": "You can choose two gifts.",
+      "image": "lottery_winner.png",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "type": "standard",
+      "className": "",
       "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "description": "",
       "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
       "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
     },
     {
-      "id": 3,
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
-    },    {
-      "id": 4,
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
-    },    {
       "id": 5,
+      "type": "standard",
+      "className": "",
       "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
+      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+    },
+    {
+      "id": 6,
+      "type": "standard",
+      "className": "",
+      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
+      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+    },
+    {
+      "id": 7,
+      "type": "standard",
+      "className": "",
+      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
+      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+    },
+    {
+      "id": 8,
+      "type": "standard",
+      "className": "",
+      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "description": "",
       "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
       "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
     }
