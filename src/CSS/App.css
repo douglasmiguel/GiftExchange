@@ -125,20 +125,20 @@ button {
 }
 .Cards .CardStandard {
   background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(195,34,34,1) 80%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(34,158,195,0.6573004201680672) 80%);
 }
 .Cards .CardSpecial {
-  color: #FFF;
-  background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(34,195,35,0.6573004201680672) 80%);
 }
 .Cards .CardSpecialJoker {
-  background: rgb(195,34,34) url("./GiftSpecial-Joker.png");
+  background: rgb(122, 202, 122) url("./GiftSpecial-Joker.png");
 }
 .Cards .CardSpecialOracle {
-  background: rgb(195,34,34) url("./GiftSpecial-Oracle.png");
+  background: rgb(122, 202, 122) url("./GiftSpecial-Oracle.png");
 }
 .Cards .CardSpecialLotteryWinner {
-  background: rgb(195,34,34) url("./GiftSpecial-LotteryWinner.png");
+  background: rgb(122, 202, 122) url("./GiftSpecial-LotteryWinner.png");
 }
 .Cards .CardNumber {
   cursor: pointer;
@@ -196,13 +196,14 @@ button {
   line-height: 25px;
   font-size: 1.6em;
   text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+  color: #000;
 }
 .Cards .Card .description {
   margin: 0;
   padding: 0 10px;
-  overflow: hidden;
   height: 60px;
   font-size: 0.6em;
+  color: #000;
 }
 .Cards .Card .Participant {
   position: absolute;
@@ -211,7 +212,7 @@ button {
   width: 200px;
   margin: 0 0 0 -100px;
   padding: 0;
-  color: #FFF;
+  color: #000;
 }
 .Cards .Card select {
   padding: 3px 5px;
