@@ -1,33 +1,19 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import _ from 'underscore';
+import Player from './Player';
 
-export default function GamePlay(props) {
+GamePlay.propTypes = {
+  participants: PropTypes.array.isRequired,
+};
+
+function GamePlay(props) {
   const [isStarted, setIsStarted] = useState(false);
   const [isGameOver, setIsGameOver] = useState(false);
   const [participants] = useState(_.shuffle(props.participants));
-  const [currentParticipant, setCurrentParticipant] = useState(0);
-  const [skippedParticipants, setSkippedParticipants] = useState([]);
 
   function startGame() {
     setIsStarted(true);
-
-    setCurrentParticipant(0);
-  }
-
-  function skipParticipant(participant) {
-    setSkippedParticipants([...skippedParticipants, participant]);
-
-    moveToNextParticipant();
-  }
-
-  function moveToNextParticipant() {
-    if (typeof participants[currentParticipant + 1] === 'undefined') {
-      setIsGameOver(true);
-
-      return;
-    }
-
-    setCurrentParticipant(previousParticipant => previousParticipant + 1);
   }
 
   return (
@@ -37,11 +23,10 @@ export default function GamePlay(props) {
       )}
 
       { !isGameOver && isStarted && (
-        <div className="Player">
-          <strong>{ participants[currentParticipant].name }</strong>
-          <button className="animation" onClick={ () => skipParticipant(participants[currentParticipant]) }>Skip</button>
-          <button className="animation" onClick={ () => moveToNextParticipant() }>Next Player</button>
-        </div>
+        <Player
+          participants={ participants }
+          setIsGameOver= { setIsGameOver }
+          />
       )}
 
       { isGameOver && (
@@ -50,3 +35,5 @@ export default function GamePlay(props) {
     </div>
   )
 }
+
+export default GamePlay;

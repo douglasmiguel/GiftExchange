@@ -1,6 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function CardImage(props) {
+CardImage.propTypes = {
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
+
+function CardImage(props) {
   return (
     <img
       src={ props.image }
@@ -9,3 +15,5 @@ export default function CardImage(props) {
       />
   )
 }
+
+export default CardImage;

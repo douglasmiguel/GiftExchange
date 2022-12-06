@@ -1,6 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function CardGift(props) {
+CardGift.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  link: PropTypes.string,
+};
+
+function CardGift(props) {
   return (
     <div>
       <h1>
@@ -21,3 +28,5 @@ export default function CardGift(props) {
     </div>
   )
 }
+
+export default CardGift;
