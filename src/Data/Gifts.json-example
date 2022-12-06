@@ -7,7 +7,8 @@
       "title": "JOKER",
       "description": "Choose a player that will have to give up on their gift and choose a new card. Make your play after that.",
       "image": "joker.png",
-      "link": ""
+      "link": "",
+      "price": 0.00
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "title": "ORACLE",
       "description": "You jump to the end of the queue, being the last one to choose.",
       "image": "oracle.png",
-      "link": ""
+      "link": "",
+      "price": 0.00
     },
     {
       "id": 3,
@@ -25,52 +27,278 @@
       "title": "LOTTERY WINNER",
       "description": "You can choose two gifts.",
       "image": "lottery_winner.png",
-      "link": ""
+      "link": "",
+      "price": 0.00
     },
     {
       "id": 4,
       "type": "standard",
       "className": "",
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "title": "Sushi Go Party!",
       "description": "",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/4cbe6690decb2750faa98abe5e966afd0d9d0e5b_394x.jpg?v=1610904821",
+      "link": "https://store.401games.ca/collections/best-selling-products/products/sushi-go-party",
+      "price": 26.95
     },
     {
       "id": 5,
       "type": "standard",
       "className": "",
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "title": "7 Wonders (New Edition)",
       "description": "",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/39acb9a1cad8c1638cf4bd0309d0a3bd2c52614c_394x.jpg?v=1610566427",
+      "link": "https://store.401games.ca/collections/board-game-geek-top-100/products/7-wonders-new-edition",
+      "price": 48.95
     },
     {
       "id": 6,
       "type": "standard",
       "className": "",
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "title": "WildStyle",
       "description": "",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/g_8525254b-1506-4f91-a9ed-c5d3e57c5f43_394x.jpg?v=1649460225",
+      "link": "https://store.401games.ca/collections/board-games-new-releases/products/wildstyle",
+      "price": 37.95
     },
     {
       "id": 7,
       "type": "standard",
       "className": "",
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "title": "Brushstroke Ink Mugs",
       "description": "",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "image": "https://cdn.shopify.com/s/files/1/1878/2363/products/product-image-1947832510.jpg?v=1645733905",
+      "link": "https://blue-narwhal.com/products/watercolour-ink-mugs?variant=39700392542342",
+      "price": 39.95
     },
     {
       "id": 8,
       "type": "standard",
       "className": "",
-      "title": "ADVENTURE GAMES: THE GRAND HOTEL ABADDON",
+      "title": "TagVault: Keychain (for AirTag)",
       "description": "",
-      "image": "https://cdn.shopify.com/s/files/1/1704/1809/products/27c637460526fea66d1cb17a6ea198a1cdb7cc45_1917x.jpg?v=1610570174",
-      "link": "https://store.401games.ca/collections/board-game-restocks/products/adventure-games-the-grand-hotel-abaddon"
+      "image": "https://cdn.shopify.com/s/files/1/0131/4552/products/keychain_hero_alone_1024x1024.jpg?v=1644950955",
+      "link": "https://www.elevationlab.com/products/tagvault?variant=39975244628119",
+      "price": 12.95
+    },
+    {
+      "id": 9,
+      "type": "standard",
+      "className": "",
+      "title": "LED Penguin Light",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/1878/2363/products/PenguinLight.jpg?v=1645236776",
+      "link": "https://blue-narwhal.com/collections/decor/products/led-penguin-light?variant=39695606808710",
+      "price": 34.95
+    },
+    {
+      "id": 10,
+      "type": "standard",
+      "className": "",
+      "title": "QuickDraw - The Hidden Under-Desk Cord Mount",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0131/4552/products/hero123_1024x1024.jpg?v=1634935059",
+      "link": "https://www.elevationlab.com/products/quickdraw",
+      "price": 12.95
+    },
+    {
+      "id": 11,
+      "type": "standard",
+      "className": "",
+      "title": "ShardHead BackPack",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0156/6146/products/SharkheadBackpackCoastalBlueI2A1K-UBPP.193_84e5eebd-da92-4946-8e52-dbfcf9139087_885x.jpg?v=1668623212",
+      "link": "https://www.gymshark.com/products/gymshark-sharkhead-backpack-coastal-blue-aw22?variant=39787184226506",
+      "price": 36.00
+    },
+    {
+      "id": 12,
+      "type": "standard",
+      "className": "",
+      "title": "Hot Ones Season 19 - Warmup Pack",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/2086/9287/products/IMG_7031-Edit-Edit.jpg?v=1663790593&width=680",
+      "link": "https://heatonist.com/products/hot-ones-hot-sauce-hot-ones-season-19-warmup-pack?variant=39912207679586",
+      "price": 36.00
+    },
+    {
+      "id": 13,
+      "type": "standard",
+      "className": "",
+      "title": "Los Calientes Trio Pack",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/2086/9287/products/loscal-barbacoa-trio.jpg?v=1622657424&width=680",
+      "link": "https://heatonist.com/products/hot-ones-los-calientes-trio?variant=39311813017698",
+      "price": 33.00
+    },
+    {
+      "id": 14,
+      "type": "standard",
+      "className": "",
+      "title": "2in1 10W Fast Charging Wireless Charger Pad with LED Lamp",
+      "description": "",
+      "image": "https://www.inspireuplift.com/resizer/?image=https://cdn.inspireuplift.com/uploads/images/seller_products/1654620799_WC-NL4.jpg&width=600&height=600&quality=80&format=auto&fit=pad",
+      "link": "https://www.inspireuplift.com/2in1-10W-Fast-Charging-Wireless-Charger-Pad-With-LED-Lamp/iu/5747",
+      "price": 35.99
+    },
+    {
+      "id": 15,
+      "type": "standard",
+      "className": "",
+      "title": "Bean Classic Plushie",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/2028/6907/products/WEBMOCK_900x.png?v=1668190378",
+      "link": "https://www.ketnipz.com/collections/home-page/products/bean-classic-plushie",
+      "price": 25.00
+    },
+    {
+      "id": 16,
+      "type": "standard",
+      "className": "",
+      "title": "LTT Northern Lights Desk Pad",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0058/4538/5314/products/600x4002DeskPads202108-2000px-18.jpg?v=1630101024&width=1445",
+      "link": "https://www.lttstore.com/products/deskpad",
+      "price": 29.99
+    },
+    {
+      "id": 17,
+      "type": "standard",
+      "className": "",
+      "title": "The Jerryrig Razor Knife",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0058/4538/5314/products/JerryRigEveythingKnife2000PX-2.jpg?v=1668808474&width=1445",
+      "link": "https://www.lttstore.com/products/the-jerryrig-razor-knife",
+      "price": 14.95
+    },
+    {
+      "id": 18,
+      "type": "standard",
+      "className": "",
+      "title": "Reusable Zippered Sandwich + Snack 2-Pack",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/2358/3785/products/treefilled1_800x800.jpg?v=1608215426",
+      "link": "https://www.lunchskins.com/collections/all/products/reusable-zippered-2-pack-bag-set-1-sandwich-1-snack-green-tree",
+      "price": 9.95
+    },
+    {
+      "id": 19,
+      "type": "standard",
+      "className": "",
+      "title": "Best Sellers Gift Set - Soap, Lotion, and Bath Bomb",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0061/1788/4017/products/20220813_144808_720x.jpg?v=1660798476",
+      "link": "https://oloofarms.com/collections/26-to-50/products/best-sellers-gift-set",
+      "price": 32.00
+    },
+    {
+      "id": 20,
+      "type": "standard",
+      "className": "",
+      "title": "Snack Pack - Soft Baked Chocolate Chip (24 ct)",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0012/2296/7353/products/SBChocChipSnackPack_750x.png?v=1646676154",
+      "link": "https://partakefoods.com/products/snack-pack-soft-baked-chocolate-chip-24-ct",
+      "price": 34.95
+    },
+    {
+      "id": 21,
+      "type": "standard",
+      "className": "",
+      "title": "Sitting Pikachu Poké Plush - 8 In.",
+      "description": "",
+      "image": "https://www.pokemoncenter.com/products/images/P5216/701-04151/P5216_701-04151_01.jpg",
+      "link": "https://www.pokemoncenter.com/product/701-04151/sitting-pikachu-poke-plush-8-in",
+      "price": 12.99
+    },
+    {
+      "id": 22,
+      "type": "standard",
+      "className": "",
+      "title": "Seagrass Plant Baskets - White/Natural",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0080/1737/9395/products/seagrass-plant-baskets-whitenatural-living-pokoloko-medium-3.webp?v=1669072463&width=1445",
+      "link": "https://www.prettycleanshop.com/products/seagrass-plant-baskets-white-natural?variant=43393909555434",
+      "price": 38.00
+    },
+    {
+      "id": 23,
+      "type": "standard",
+      "className": "",
+      "title": "The Perfect Pair - Vanilla Coconut",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0271/6071/products/Holiday-077-Edit_2000x.jpg?v=1666972361",
+      "link": "https://www.rockymountainsoap.com/products/the-perfect-pair-vanilla-coconut",
+      "price": 38.00
+    },
+    {
+      "id": 24,
+      "type": "standard",
+      "className": "",
+      "title": "2x Pumpkin Spice",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0298/9045/products/DE0801_white_0b9ccdfa-1252-46fa-b6f5-ea397d2281ab.jpg?v=1664512122",
+      "link": "https://smartypits.com/collections/sensitive-skin-formula-deodorant/products/pumpkin-spice",
+      "price": 23.98
+    },
+    {
+      "id": 25,
+      "type": "standard",
+      "className": "",
+      "title": "SteadiBoost™ USB-C PD3.0 Car Charger",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0808/0067/products/id_f31qc_title_01.jpg?v=1620858055",
+      "link": "https://www.spigen.com/collections/car-charger/products/steadiboost-usb-c-pd3-0-car-charger?variant=31523693953071",
+      "price": 19.99
+    },
+    {
+      "id": 26,
+      "type": "standard",
+      "className": "",
+      "title": "ArcStation™ Pro 20W Wall Charger",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0808/0067/products/title_06.jpg?v=1620445521",
+      "link": "https://www.spigen.com/collections/gan-charger/products/arcstation-pro-20w-wall-charger?variant=40138340368431",
+      "price": 29.99
+    },
+    {
+      "id": 27,
+      "type": "standard",
+      "className": "",
+      "title": "'tis - The Season 4-bar (Bundle)",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0974/7668/products/Taza_TisTheSeason_Bundle_Shopify_large.jpg?v=1665694674",
+      "link": "https://www.tazachocolate.com/collections/gifts-collections/products/tis-the-season-4-bar-bundle",
+      "price": 19.99
+    },
+    {
+      "id": 28,
+      "type": "standard",
+      "className": "",
+      "title": "Coffee Mug - A Coffee is never Latte",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/1869/0319/products/33012-model-drk-non-sst-color-cha_650x650.jpg?v=1659709314",
+      "link": "https://teefury.com/products/drinkware-stainless-steel-tumbler-a-coffee-is-never-latte?variant=39884584583234",
+      "price": 36.00
+    },
+    {
+      "id": 29,
+      "type": "standard",
+      "className": "",
+      "title": "Tofino Soap - Hope Candle",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0027/1446/8422/products/IMG_5438.JPG?v=1612631238&width=1445",
+      "link": "https://tofinosoapcompany.com/products/candle-for-a-cause",
+      "price": 39.00
+    },
+    {
+      "id": 30,
+      "type": "standard",
+      "className": "",
+      "title": "Barn Owl | Pillow Cover",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/2371/1347/products/il_fullxfull.1332737281_9ny0_db662873-c7c2-4f35-a08f-b6dfb03269b7_720x.jpg?v=1615419881",
+      "link": "https://uniikpillows.com/products/barn-owl-pillow-cover-drawing-of-an-15001?variant=39371333337187",
+      "price": 24.00
     }
   ]
 }

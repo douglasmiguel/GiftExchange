@@ -11,13 +11,12 @@ body {
   align-content: space-around;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,75,84,1) 100%);
-  min-height: 10vh;
 }
 .App-header h1 {
   width: 40%;
   color: #2177c0;
   text-shadow: -1px 0 #73bcff, 0 1px #73bcff, 1px 0 #73bcff, 0 -1px #73bcff;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Petit Formal Script', cursive;
 }
 
@@ -26,7 +25,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
   align-content: space-around;
   width: 50%;
@@ -104,14 +103,14 @@ button {
 
 .Cards {
   width: 100%;
-  height: 800px;
+  height: 1050px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
-  margin: 20px 0 20px;
+  margin: 0;
 }
 
 /** Flipping Card */
@@ -125,7 +124,12 @@ button {
   background: rgb(195,34,34);
 }
 .Cards .CardStandard {
-  background: rgb(195,34,34);
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(195,34,34,1) 80%);
+}
+.Cards .CardSpecial {
+  color: #FFF;
+  background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
 }
 .Cards .CardSpecialJoker {
   background: rgb(195,34,34) url("./GiftSpecial-Joker.png");
@@ -135,10 +139,6 @@ button {
 }
 .Cards .CardSpecialLotteryWinner {
   background: rgb(195,34,34) url("./GiftSpecial-LotteryWinner.png");
-}
-.Cards .CardFlipped {
-  color: #FFF;
-  background-color: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(199,108,108,1) 46%, rgba(195,34,34,1) 100%);
 }
 .Cards .CardNumber {
   cursor: pointer;
@@ -168,31 +168,32 @@ button {
 }
 
 .Cards .Card .Gift {
-  margin: 0;
-  padding: 0;
+  width: 200px;
   position: relative;
+  top: 5px;
+  left: 25px;
 }
 
 .Cards .Card img {
   margin: 10px 0 0 0;
   max-height: 140px;
+  mix-blend-mode: multiply;
 }
 .Cards .Card h1 {
   margin: 0;
-  font-size: 0.5em;
+  font-size: 14px;
 }
 .Cards .Card h1 a {
   padding: 5px 15px;
-  color: #FFF;
+  color: #000;
   text-decoration: none;
-  font-size: 0.8em;
   overflow: hidden;
 }
 .Cards .Card h1 p {
   display: block;
   margin: 0;
-  padding: 100px 0 0 0;
-  line-height: 40px;
+  padding: 80px 0 0 0;
+  line-height: 25px;
   font-size: 1.6em;
   text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
@@ -222,13 +223,13 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
   margin: 10px 0 0 0;
 }
 .Cards .Card .selectedParticipant button {
   width: 20px;
   height: 20px;
-  font-size: 0.4em;
+  font-size: 0.7em;
   background-color: #FFF;
   color: #c32222;
   margin: 0 0 0 10px;

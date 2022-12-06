@@ -28,7 +28,7 @@ export default function Card(props) {
         <span>{ props.number }</span>
       </div>
 
-      <div className={ props.gift.type === "special" ? "Card CardFlipped CardSpecial" + props.gift.className : "Card CardFlipped CardStandard" }>
+      <div className={ props.gift.type === "special" ? "Card CardFlipped CardSpecial CardSpecial" + props.gift.className : "Card CardFlipped CardStandard" }>
         <div className="SmallNumber">{ props.number }</div>
         <div className="Gift">
           { props.gift.type === "standard" &&
