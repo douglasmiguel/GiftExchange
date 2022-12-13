@@ -20,57 +20,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Suggestions on how to run the event
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The game can go quickly if you rush it. It's a lot more fun if you take some time to consider each prize, maybe even opening them up in another tab and trying to have some fun discussing the details. Try to play up the strategy and uncertainty, etc. Don't rush it!
 
-### `npm run build`
+- Spend a minute before starting the game to remove any names of folks who're not in the meeting. You can get it close by matching the RSVPs, but there will be changes day-of. Also, have roughly the same number of gifts as attendees. When there are way more gifts, the tendency will be to avoid stealing, and stealing is a big part of the fun!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Have some music playing in the background. Don't rush to start the game. Let people slowly drop in. Use the time at the beginning to chat and have some fun. Have some pre-canned prompts to discuss if that helps. Once you feel the meeting is fully attended, quickly reconfigure the game accordingly (as mentioned above).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- When the game ends, take some time to reveal each of the prizes that weren't chosen (assuming you left a few extra prizes in the game board).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Advise folks up front of the special cards: oracle and joker. It might make it more exciting. OR maybe don't, b/c you want to incentivize stealing and these cards do the opposite. /shrug
 
-### `npm run eject`
+- Let people know up front that they will actually receive these prizes. It wasn't obvious to all that that would be the case.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Take a screenshot of the game board at the end and post it into chat. It's nice to have that follow-up. Also, be sure to thank everyone for participating.
